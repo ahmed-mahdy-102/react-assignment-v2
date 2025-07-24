@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # React Portfolio Assignment
 
 A modern portfolio website built with React, Vite, Bootstrap, and FontAwesome.
@@ -89,3 +90,6 @@ assignment-1/
 ## License
 
 This project is licensed under the MIT License. 
+=======
+# react-assignment-v2
+>>>>>>> a6e82a513e13610d4999c49d4385d66b73e9f949
