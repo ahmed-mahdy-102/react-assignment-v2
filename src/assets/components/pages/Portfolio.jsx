@@ -1,12 +1,20 @@
 import React from 'react';
 
+// Import images directly
+import cabin from '../../../assets/img/portfolio/cabin.png';
+import cake from '../../../assets/img/portfolio/cake.png';
+import circus from '../../../assets/img/portfolio/circus.png';
+import game from '../../../assets/img/portfolio/game.png';
+import safe from '../../../assets/img/portfolio/safe.png';
+import submarine from '../../../assets/img/portfolio/submarine.png';
+
 const images = [
-  { src: '/react-assignment-v2/assets/img/portfolio/cabin.png', alt: 'cabin.png' },
-  { src: '/react-assignment-v2/assets/img/portfolio/cake.png', alt: 'cake.png' },
-  { src: '/react-assignment-v2/assets/img/portfolio/circus.png', alt: 'circus.png' },
-  { src: '/react-assignment-v2/assets/img/portfolio/game.png', alt: 'game.png' },
-  { src: '/react-assignment-v2/assets/img/portfolio/safe.png', alt: 'safe.png' },
-  { src: '/react-assignment-v2/assets/img/portfolio/submarine.png', alt: 'submarine.png' },
+  { src: cabin, alt: 'cabin.png' },
+  { src: cake, alt: 'cake.png' },
+  { src: circus, alt: 'circus.png' },
+  { src: game, alt: 'game.png' },
+  { src: safe, alt: 'safe.png' },
+  { src: submarine, alt: 'submarine.png' },
 ];
 
 export default function Portfolio() {
