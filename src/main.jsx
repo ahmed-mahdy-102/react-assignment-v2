@@ -7,10 +7,10 @@ import Header from './assets/components/pages/Header';
 import About from './assets/components/pages/About';
 import Portfolio from './assets/components/pages/Portfolio';
 import Contact from './assets/components/pages/Contact';
-import { BrowserRouter, Routes, Route } from 'react-router-dom';
+import { HashRouter, Routes, Route } from 'react-router-dom';
 
 ReactDOM.createRoot(document.getElementById('root')).render(
-  <BrowserRouter>
+  <HashRouter>
     <Routes>
       <Route path="/" element={<App />}>
         <Route index element={<Header />} />
@@ -19,5 +19,5 @@ ReactDOM.createRoot(document.getElementById('root')).render(
         <Route path="contact" element={<Contact />} />
       </Route>
     </Routes>
-  </BrowserRouter>
+  </HashRouter>
 );

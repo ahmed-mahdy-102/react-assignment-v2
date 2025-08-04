@@ -4,7 +4,7 @@ export default function Header() {
   return (
     <header className=" text-white text-center py-5" style={{ background: '#1abc9c' }}>
       <div className="container d-flex align-items-center flex-column">
-        <img className="mb-4" src="/assets/img/portfolio/avataaars.svg" alt="Avatar" style={{width: 200}} />
+        <img className="mb-4" src="/react-assignment-v2/assets/img/portfolio/avataaars.svg" alt="Avatar" style={{width: 200}} />
         <h1 className="mb-0" style={{ color: '#fff' }}>START FRAMEWORK</h1>
         
         {/* Simple divider with explicit styling */}

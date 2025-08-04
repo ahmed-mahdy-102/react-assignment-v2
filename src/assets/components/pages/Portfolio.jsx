@@ -1,12 +1,12 @@
 import React from 'react';
 
 const images = [
-  'cabin.png',
-  'cake.png',
-  'circus.png',
-  'game.png',
-  'safe.png',
-  'submarine.png',
+  { src: '/react-assignment-v2/assets/img/portfolio/cabin.png', alt: 'cabin.png' },
+  { src: '/react-assignment-v2/assets/img/portfolio/cake.png', alt: 'cake.png' },
+  { src: '/react-assignment-v2/assets/img/portfolio/circus.png', alt: 'circus.png' },
+  { src: '/react-assignment-v2/assets/img/portfolio/game.png', alt: 'game.png' },
+  { src: '/react-assignment-v2/assets/img/portfolio/safe.png', alt: 'safe.png' },
+  { src: '/react-assignment-v2/assets/img/portfolio/submarine.png', alt: 'submarine.png' },
 ];
 
 export default function Portfolio() {
@@ -21,9 +21,9 @@ export default function Portfolio() {
         </div>
         <div className="row justify-content-center">
           {images.map((img, idx) => (
-            <div className="col-md-6 col-lg-4 mb-5" key={img}>
+            <div className="col-md-6 col-lg-4 mb-5" key={img.alt}>
               <div className="portfolio-item mx-auto" style={{ position: 'relative', cursor: 'pointer' }}>
-                <img className="img-fluid" src={`/assets/img/portfolio/${img}`} alt={img} />
+                <img className="img-fluid" src={img.src} alt={img.alt} />
                 <div 
                   className="portfolio-overlay"
                   style={{
